@@ -45,10 +45,10 @@ footer {
   background: #fce138;
 }
 footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
   margin: 0;
+  display: inline;
+  font-size: 30px;
+  color: #024e76;
 }
 footer div {
   float: right;
@@ -59,21 +59,26 @@ footer a {
   color: #024e76;
 }
 
+/* General Styles */
 .section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
+  padding: 0 100px 20px 100px;
 }
-
 .primary-border {
   border-color: #fce138;
 }
-
 .secondary-border {
   border-color: #39a6b2;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
 }
 
 /* Hero Section/Form Styles */
@@ -96,8 +101,8 @@ footer a {
   border: solid 3px #024e76;
 }
 .hero-form h3 {
-  font-size: 24px;
   margin: 0;
+  font-size: 24px;
 }
 .hero-form p {
   margin: 5px 0 15px 0;
@@ -126,13 +131,12 @@ footer a {
 .intro {
   text-align: center;
 }
-
 .intro p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
   line-height: 1.7;
   color: #39a6b2;
-  width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
 }
 
 /* What You Do Styles */
@@ -140,27 +144,56 @@ footer a {
   text-align: center;
   background: #fce138;
 }
-
 .steps div {
   margin-bottom: 80px;
 }
-
 .steps img {
   width: 15%;
   margin: 10px 0;
 }
-
 .steps h3 {
-  color: #024e76;
   font-size: 46px;
   margin-top: 10px;
+  color: #024e76;
 }
-
 .steps p {
-  color: #39a6b2;
   font-size: 23px;
+  color: #39a6b2;
 }
-
 .steps span {
   font-size: 38px;
+}
+
+/* Meet The Trainers Styles */
+.trainers {
+  text-align: center;
+}
+.trainer {
+  width: 900px;
+  overflow: auto;
+  color: #fce138;
+  background: #024e76;
+  margin: 0 auto 30px auto;
+}
+.trainer img {
+  width: 35%;
+  float: left;
+}
+.trainer-bio {
+  width: 65%;
+  float: left;
+  padding: 35px;
+}
+.trainer-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.trainer-bio h4 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.3;
 }
