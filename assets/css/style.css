@@ -65,7 +65,22 @@ footer a {
   color: #024e76;
 }
 
-section {
+.hero {
+  background-image: url("../images/hero-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
   padding: 60px;
-  background-image: url("assests/images/hero-bg.jpeg");
+  position: relative;
+}
+
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border: solid 3px #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
 }
