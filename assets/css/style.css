@@ -15,13 +15,15 @@ section {
 
 /* Header Styles */
 header {
+  display: flex;
   padding: 20px 35px;
   background-color: #39a6b2;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 header h1 {
   margin: 0;
   font-size: 36px;
-  display: inline;
   color: #fce138;
   font-weight: bold;
 }
@@ -30,7 +32,6 @@ header a {
   text-decoration: none;
 }
 header nav {
-  float: right;
   margin: 7px 0;
 }
 header nav ul li {
@@ -40,27 +41,6 @@ header nav ul li a {
   margin: 0 30px;
   font-size: 22px;
   font-weight: lighter;
-}
-
-/* Footer Styles */
-footer {
-  width: 100%;
-  padding: 40px 35px;
-  background: #fce138;
-}
-footer h2 {
-  margin: 0;
-  display: inline;
-  font-size: 30px;
-  color: #024e76;
-}
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-footer a {
-  color: #024e76;
 }
 
 /* General Styles */
@@ -99,6 +79,8 @@ footer a {
   right: 140px;
   padding: 20px;
   bottom: 120px;
+  opacity: 0.8;
+  border-radius: 5%;
   color: #024e76;
   position: absolute;
   background-color: #fce138;
@@ -236,4 +218,25 @@ footer a {
 }
 .contact-info a {
   color: #fce138;
+}
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  padding: 40px 35px;
+  background: #fce138;
+}
+footer h2 {
+  margin: 0;
+  display: inline;
+  font-size: 30px;
+  color: #024e76;
+}
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+footer a {
+  color: #024e76;
 }
