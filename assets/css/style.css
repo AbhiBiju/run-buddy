@@ -51,10 +51,11 @@ header nav ul li a {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  display: inline-block;
   border-bottom: 3px solid;
-  padding: 0px 100px 20px 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 .primary-border {
   border-color: #fce138;
@@ -67,6 +68,9 @@ header nav ul li a {
 }
 .text-right {
   text-align: right;
+}
+.flex-row {
+  display: flex;
 }
 
 /* Hero Section/Form Styles */
@@ -130,20 +134,17 @@ header nav ul li a {
 }
 
 /* Intro/What We Do Styles */
-.intro {
-  text-align: center;
-}
 .intro p {
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
   line-height: 1.7;
   color: #39a6b2;
+  text-align: center;
 }
 
 /* What You Do Styles */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 .steps div {
@@ -167,9 +168,6 @@ header nav ul li a {
 }
 
 /* Meet The Trainers Styles */
-.trainers {
-  text-align: center;
-}
 .trainer {
   width: 900px;
   overflow: auto;
@@ -202,7 +200,6 @@ header nav ul li a {
 
 /* Reach Out Styles */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 .contact h2 {
